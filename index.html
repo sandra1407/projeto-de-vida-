@@ -1,42 +1,122 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <section class="conteudo-principal">
-        <h2 class="titulo-principal">Meus objetivos do ano_</h2>
-        <div class="botoes">
-            <button class="botao">Cursos na Alura</button>
-            <button class="botao">Criar projetos em Java Script</button>
-            <button class="botao">Criar um portifólio</button>
-            <button class="botao">Atualizar meu curriculo</button>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;pt-br&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Meus objetivos do ano&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;section class=&quot;conteudo-principal&quot;&gt;
+        &lt;h2 class=&quot;titulo-principal&quot;&gt;Meus Objetivos do ano&lt;span&gt;_&lt;/span&gt;&lt;/h2&gt;
+        &lt;div class=&quot;conteudo&quot;&gt;
+            &lt;div class=&quot;botoes&quot;&gt;
+                &lt;button class=&quot;botao ativo&quot;&gt;Cursos na Alura&lt;/button&gt;
+                &lt;button class=&quot;botao&quot;&gt;Criar projetos em Javascript&lt;/button&gt;
+                &lt;button class=&quot;botao&quot;&gt;Criar um portfolio&lt;/button&gt;
+                &lt;button class=&quot;botao&quot;&gt;Atualizar meu currículo&lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;abas-textos&quot;&gt;
+                &lt;div class=&quot;aba-conteudo ativo&quot;&gt;
+                    &lt;h3 class=&quot;aba-conteudo-titulo-principal&quot;&gt;Estudar 4 cursos na Alura&lt;/h3&gt;
+                    &lt;h4 class=&quot;aba-conteudo-titulo-secundario&quot;&gt;Tempo para completar o
+objetivo&lt;/h4&gt;
+                    &lt;div class=&quot;contador&quot;&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;dias0&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;dias&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;horas0&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;horas&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;min0&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;min&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;seg0&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;seg&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;aba-conteudo&quot;&gt;
+                    &lt;h3 class=&quot;aba-conteudo-titulo-principal&quot;&gt;Criar 5 projetos em
+Javascript&lt;/h3&gt;
+                    &lt;h4 class=&quot;aba-conteudo-titulo-secundario&quot;&gt;Tempo para completar o
+objetivo&lt;/h4&gt;
+                    &lt;div class=&quot;contador&quot;&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;dias1&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;dias&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
 
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;horas1&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;horas&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;min1&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;min&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;seg1&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;seg&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;aba-conteudo&quot;&gt;
+                    &lt;h3 class=&quot;aba-conteudo-titulo-principal&quot;&gt;Criar um portfolio com os meus 3
+melhores projetos&lt;/h3&gt;
+                    &lt;h4 class=&quot;aba-conteudo-titulo-secundario&quot;&gt;Tempo para completar o
+objetivo&lt;/h4&gt;
+                    &lt;div class=&quot;contador&quot;&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;dias2&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;dias&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;horas2&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;horas&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;min2&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;min&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;seg2&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;seg&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;aba-conteudo&quot;&gt;
+                    &lt;h3 class=&quot;aba-conteudo-titulo-principal&quot;&gt;Atualizar meu curriculo com os
+certificados da Alura&lt;/h3&gt;
+                    &lt;h4 class=&quot;aba-conteudo-titulo-secundario&quot;&gt;Tempo para completar o
+objetivo&lt;/h4&gt;
+                    &lt;div class=&quot;contador&quot;&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;dias3&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;dias&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;horas3&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;horas&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;min3&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;min&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;contador-digito&quot;&gt;
 
-     </div>
-     <div class="abas-textos">
-        <div class="aba-conteudo ativo">
-            <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na alura</h3>
-            <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o obejtivo</h4>
-        </div>
-        <div class="aba-conteudo">
-            <h3 class="aba-conteudo-titulo-principal">Criar 5 projetos em Javascript</h3>
-            <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o obejtivo</h4>
-        </div>
-        <div class="aba-conteudo">
-            <h3 class="aba-conteudo-titulo-principal">Criar um portifóloio com os meus 3 melhore projetos</h3>
-            <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o obejtivo</h4>
-        </div>
-        <div class="aba-conteudo">
-            <h3 class="aba-conteudo-titulo-principal">Atualizar meu curriculo com os certificados da Alura</h3>
-            <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o obejtivo</h4>
-        </div>
-    </div>
-    </div>
-</section>
-<script src="main.js"></script>
-</body>
-</html>
+                            &lt;p class=&quot;contador-digito-numero&quot; id=&quot;seg3&quot;&gt;7&lt;/p&gt;
+                            &lt;p class=&quot;contador-digito-texto&quot;&gt;seg&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+    &lt;script src=&quot;main.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
